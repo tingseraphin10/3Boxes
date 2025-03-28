@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-emphasis-color: white;
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    border: solid;
+    height: 50px;
+    width: 50px;
+}
